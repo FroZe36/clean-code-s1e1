@@ -30,7 +30,7 @@ body {
 .new-todo-value, .todo-name, .todo-value {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .new-todo-wrapper {
   display: flex;
@@ -116,7 +116,7 @@ li > label {
   width: 226px;
 }
 li >    input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 button.todo-btn-delete img {
   height: 2em;
@@ -129,18 +129,18 @@ button.todo-btn-delete img:hover {
 
 /* Completed */
 ul#completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 ul li input[type="text"] {
-  display: none
+  display: none;
 }
 
 ul li.todo-item-edit input[type="text"] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 ul li.todo-item-edit label {
